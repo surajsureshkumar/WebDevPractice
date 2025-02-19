@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.form{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 500px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row; 
+    gap: 10px; 
+    margin-bottom: 10px;
+}
+
+.input input[type="text"],
+.input input[type="number"],
+.input input[type="email"],
+.input input[type="password"] {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+.termsAndConditions {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    white-space: normal;
+    word-break: break-word;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.register{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 14px 14px;
+    width: 50%;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.submit{
+    background-color: rgb(16, 212, 16);
+    border: none;
+    color: white;
+    padding: 14px 14px;
+    width: 50%;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.registerHighlight{
+    border-radius: 1px;
+    padding: 2px 5px;
+    background-color: dodgerblue
+}
+
